@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box; 
+}
+body{
+    background-color: rgb(31, 30, 30);
+}
+h1{
+    color: azure;
+    text-align: center;
+}
+div.container{
+    background-color: rgb(46, 43, 43);
+    border-radius: 5pt;
+    width: 520px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+div.container a img {
+    width: 250px;
+    height: 120px;
+}
+div.container a img:hover{
+    border: 2px black solid;
+}
+
+div.video-container {
+    display: flex;
+    width: 560px;
+    margin: auto;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+iframe.video-player{
+    width: 560px;
+    height: 315px;
+}
+
