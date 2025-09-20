@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: 0;
+    color: black;
+}
+
+@font-face {
+    font-family: 'Idroid';
+    src: url("fontes/idroid.otf");
+}
+
+body {
+    background-color: rgb(0, 255, 149); 
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* Header styles*/
+header {
+    background-image: linear-gradient(to top, rgb(2, 157, 17),rgb(1, 212, 23));
+    text-shadow: 1px 2px 6px black ;
+    text-align: center;
+    height: 200px;
+    min-width: 400px;
+    width: 100%;
+}
+
+header h1 {
+    height:41%;
+    color: aliceblue;
+}
+
+header p {
+    margin: auto;
+    color: aliceblue; 
+    height: 50%;
+    width: 70%;
+}
+
+header ul {
+    list-style: none;
+    text-align: left;
+    height: 9%;
+    padding-left: 2% ;
+}
+header ul li {
+    display: inline-block;
+    margin-right: 2%;
+    
+}
+header ul li a {
+    color: aliceblue;
+}
+
+/*Main styles*/
+main {
+    background-color: aliceblue;
+    width: 60%;
+    min-width: 360px;
+    margin: 1vh auto;
+    padding: 20px;
+    border-radius: 7px;
+    box-shadow: 2px 2px 4px rgb(1, 137, 81); 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+main p {
+    text-indent: 28px;
+    text-align: justify;
+    line-height: 1.5;
+}
+
+main h2, .subtitulo-main {
+    display: block;
+    font-family: 'Idroid', Arial, sans-serif;
+    color: rgb(3, 93, 21);
+}
+
+main h2{
+    text-align: center;
+}
+
+.subtitulo-main{
+    width: 100%;
+    text-align: left;
+    background-image: linear-gradient(to right, rgba(39, 178, 14, 0.46) 12.5%, rgba(39, 178, 14, 0.378)75%, rgba(39, 178, 14, 0));
+}
+main img, iframe {
+    max-width: 100%;
+}
+
+main iframe {
+    width: 100%;
+    margin: 12px 0;
+}
+
+.extra {
+    width: 100%;
+    box-shadow: 2px 2px 4px rgb(1, 137, 81); 
+    border-radius: 5px;
+    background-color: rgba(0, 255, 204, 0.556); 
+    margin-bottom: 14px;
+    
+}   
+.extra-title {
+    color: aliceblue;
+    width: 100%;
+    background-color: green;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.extra-ul-container {
+    display: flex;
+    width: 100%;
+    font-size: 1em;
+    padding: 10px;
+}
+.extra-ul {
+    margin:auto;
+}
+
+#destaque {
+    color: rgba(3, 93, 21, 0.778); ;
+}
+/*Footer styles*/
+footer{
+    height: 2vh;
+    background-color: rgb(21, 169, 56);
+    text-align: center;
+    font-size: 0.75em;
+}
+
+footer strong{
+    color: aliceblue;
+    
+}
