@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>menu responsivo</title>
+    <link rel="stylesheet" href="estilos/style.css" media="all" />
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+</head>
+<body >
+    <header>
+        <h1>Menu Responsivo</h1>
+        <span class="material-symbols-outlined" id = "icon" onclick="swapMenu()">menu</span>
+        <menu id="menu">
+            <li><a href="#" class="menu-itens">Home</a></li>
+            <li><a href="#" class="menu-itens">Sobre</a></li>
+            <li><a href="#" class="menu-itens">Serviços</a></li>
+            <li><a href="#" class="menu-itens">Contato</a></li>
+        </menu>
+    </header>
+    <main>
+        <article>
+            <h1>Lorem Ipsum Dolor</h1>
+            <p>
+                lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi in vitae, commodi dolore dicta rem sit fugiat tempora necessitatibus voluptatem distinctio debitis a inventore odit at aliquam doloribus deserunt quaerat?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum tempore ea laboriosam corrupti rem, cum autem dolore esse, aperiam, at distinctio a. Repellendus nobis odio adipisci dicta officia. Voluptatum, earum.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat dolor officiis, esse quam molestiae eligendi ipsa. Laborum vero ex consectetur sint! Velit perspiciatis quaerat magni porro quis nihil voluptates veniam?
+            </p>
+        </article>
+    </main>
+    <script>  
+        // const mudouTamanho = () => {
+        //     menu.style.display = window.innerWidth >= 768 ?  'block' : 'none'
+        // }
+        
+        const swapMenu = () => {
+                if (menu.style.display === 'none') {
+                    menu.style.display = 'block';
+                    return;
+                } 
+                menu.style.display = 'none';
+            }
+    </script>
+</body>
+</html>

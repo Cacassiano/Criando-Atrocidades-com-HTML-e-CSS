@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+/* mobile first */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+html{
+    height: 100vh ;
+}
+body {
+    background: black url(../imagens/back-phone.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+main {
+    background-color: rgba(255, 255, 255, 0.686);
+    width: 90vw;
+    margin: auto;
+    padding: 14px;
+    border-radius: 10px;
+}
+
+main > h1 {
+    text-align: center;
+}
+
+img {
+    margin: auto;
+    display: block;
+}
+
+img.icon {
+    display: none;
+}
+img#phone {
+    display: block;
+}

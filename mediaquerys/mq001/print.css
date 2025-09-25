@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+/*   Estilos de impressão   */
+
+body {
+    background-color: white;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+}

@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+body {
+    background-color: blueviolet;
+}
+
+main article {
+    background-color: aliceblue;
+    width: 50%;
+}
